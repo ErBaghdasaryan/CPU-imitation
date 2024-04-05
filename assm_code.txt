@@ -1,0 +1,12 @@
+mov r1, 3
+mov r2, 20
+loop:
+cmp r2, r1
+jge loop2
+jmp loop3
+mov r4, 5
+loop2:
+add r1, 5
+jmp loop
+loop3:
+mov r7, 7
